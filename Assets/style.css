@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containers{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffc300;
+    overflow-x: hidden;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffc300;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+video{
+    border-radius: 70px;
+}
+.buttons{
+   display: flex;
+   /* margin-top: 50px; */
+   width: 100%;
+   justify-content: center;
+
+}
+.play{
+    margin-left: 100px;
+}
+ @media screen and (max-width:768px){
+     video{
+         height: 100vh;
+         width: 80%;
+         margin-top: -100px;
+     }.buttons{
+         margin-top: -200px;
+     }
+ }
